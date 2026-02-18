@@ -1,0 +1,99 @@
+# PHP
+*.php~
+*.php.bak
+*.cache
+vendor/
+composer.phar
+composer.lock
+.DS_Store
+Thumbs.db
+
+# Configuration Files
+config.php
+.env
+.env.local
+.env.*.local
+db_config.php
+database.php
+
+# Logs
+*.log
+error_log
+debug.log
+logs/
+*.log.*
+
+# Temporary Files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+.buildpath
+nbproject/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Upload Directories
+uploads/*
+!uploads/.gitkeep
+temp/
+cache/
+
+# Session Files
+sessions/
+tmp/
+
+# Backup Files
+*.bak
+*.backup
+*.old
+*.orig
+backup/
+
+# Database
+*.sql
+*.sqlite
+*.db
+
+# Composer
+/vendor/
+composer.lock
+
+# Node modules (if using npm)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build files
+dist/
+build/
+
+# PHPUnit
+.phpunit.result.cache
+phpunit.xml
+
+# Coverage reports
+coverage/
+clover.xml
+
+# Azure specific
+.azure/
